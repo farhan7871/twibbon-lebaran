@@ -176,6 +176,12 @@ footer{
     text-align: center;
 }
 
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+}
+
 
 
 @media (max-width:390px){
