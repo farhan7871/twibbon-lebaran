@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Montserrat';
+}
+
+html{
+    background-color: #f8f8f8;
+}
+.btn{
+    text-decoration: none;
+    background-color: #ff9200;
+    border-radius: 10rem;
+    padding: 1rem;
+}
+
+.btn-dm{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.container{
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.main{
+    background-image: url("assets/frame2.png");
+    background-size: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.main h1{
+    margin-top: 2rem;
+    font-size: 36px;
+}
+
+.desc{
+    align-content: center;
+    margin-top: 2rem;
+
+}
+
+.desc p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+#content{
+    background-color: #f8f8f8;
+    width: 100%;
+    /* height: ; */
+}
+
+.title-content-1{
+    text-align: center;
+    padding: 2rem;
+}
+
+.btn-message{
+    align-content: center;
+    margin: auto;
+}
+
+.title-twibbon{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.kotak-card{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.btn-dm{
+    text-align: center;
+}
+
+.card1{
+    background-color: #ffff;
+    border-radius: 20px;
+    width: 500px;
+    vertical-align: middle;
+    margin: auto;
+    box-shadow: 5px 10px #8888882f;
+}
+
+.list-card{
+    text-align: center;
+    margin-top: 3rem;
+
+}
+
+.card1 img{
+    width: 75%;
+    object-fit: cover;
+}
+
+.card1 h4{
+    text-align: center;
+    padding: 1rem;
+}
+
+.btn-twibbon{
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    text-decoration: none;
+    text-align: center;
+    background-color: #1fbf55;
+    border-radius: 50px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-klik-twibbon{
+    text-decoration: none;
+    color: #ffff;
+}
+
+
+
+@media (max-width:900px){
+
+}
+
+@media (max-width:550px){
+
+    .container{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .btn-dm{
+        margin-top: 1rem;
+        text-decoration: none;
+        color: #ffff;
+        font-size: 13px;
+    }
+    .btn-twibbon{
+        padding: 0.5rem 0.5rem;
+        text-align: center;
+        margin: auto;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        text-align: center;
+        font-size: 13px;
+        background-color: #1fbf55;
+        border-radius: 10px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .btn-klik-twibbon{
+        text-decoration: none;
+        color: #ffff;
+    }
+}
+
+footer{
+    background-color: #5e5e5e;
+    padding: 20px;
+    color: white;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+@media (max-width:390px){
+    .btn-dm{
+        margin-top: 1rem;
+        text-decoration: none;
+        color: #ffff;
+        font-size: 10px;
+    }
+
+    .btn-twibbon{
+        padding: 0.5rem 0.5rem;
+        text-align: center;
+        margin: auto;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        text-align: center;
+        font-size: 10px;
+        background-color: #1fbf55;
+        border-radius: 10px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .btn-klik-twibbon{
+        text-decoration: none;
+        color: #ffff;
+    }
+
+
+}
+
+
